@@ -1,33 +1,31 @@
 {
   "name": "fullstack-268-s02",
   "version": "1.0.0",
-  "description": "Reposity for Fullstack",
-  "main": "index.js",
+  "description": "Repository for FullStack",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "format": "prettier --write *.js",
-    "dev": "nodemon src/index.js",
-    "CBNDM": "nodemon src/CRUBookNoDM.js",
-    "SQLB": "nodemon src/CRUDBookSQLite.js"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Monkh0305/fullstack-268-S02.git"
+    "url": "git+https://github.com/TypeN2003/FullStack-268-S02.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Monkh0305/fullstack-268-S02/issues"
+    "url": "https://github.com/TypeN2003/FullStack-268-S02/issues"
   },
-  "homepage": "https://github.com/Monkh0305/fullstack-268-S02#readme",
+  "homepage": "https://github.com/TypeN2003/FullStack-268-S02#readme",
   "devDependencies": {
+    "nodemon": "^3.1.11",
     "prettier": "^3.8.0"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "nodemon": "^3.1.11",
-    "sqlite3": "^5.1.7"
+    "express": "^5.2.1"
   }
 }

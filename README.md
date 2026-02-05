@@ -1,2 +1,2 @@
-# fullstack-268-S02
-Reposity for Fullstack
+# FullStack-268-S02
+Repository for FullStack
